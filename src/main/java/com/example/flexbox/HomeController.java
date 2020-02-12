@@ -9,4 +9,9 @@ public class HomeController {
     public String index() {
         return "index";
     }
+
+    @RequestMapping("/items")
+    public String flexItems() {
+        return "items";
+    }
 }

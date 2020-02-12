@@ -1,0 +1,34 @@
+.container {
+    display: flex; /* or inline-flex */ /*You may think of this as your flexbox initializer */
+    flex-direction: row;
+    /*flex-direction: row | row-reverse | column | column-reverse;*/
+    background-color: burlywood;
+}
+
+.defaultItem {
+    background-color: darkmagenta;
+    border: chartreuse 2px solid;
+    flex-basis: 2rem;
+}
+.itemFlexGrow1 {
+    background-color: darkmagenta;
+    flex-grow: 1;
+    border: chartreuse 2px solid;
+}
+
+#grow1 {
+    flex-grow: 1; /* default 0 */
+}
+
+#grow2 {
+    flex-grow: 2; /* default 0 */
+}
+
+/*.item {*/
+/*    flex-basis: <length> | auto; !* default auto *!*/
+/*}*/
+
+/*.item {*/
+/*    flex: none | [ <'flex-grow'> <'flex-shrink'>? || <'flex-basis'> ]*/
+/*}*/
+/*It is recommended that you use this shorthand property rather than set the individual properties. The shorthand sets the other values intelligently.*/
