@@ -1,0 +1,33 @@
+.container {
+    display: flex; /* or inline-flex */ /*You may think of this as your flexbox initializer */
+    flex-direction: row;
+    /*flex-direction: row | row-reverse | column | column-reverse;*/
+    background-color: burlywood;
+}
+
+.container-row-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: burlywood;
+}
+
+.vertical-container {
+    display: flex;
+    flex-direction: column;
+    background-color: burlywood;
+}
+
+.vertical-container-reverse {
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: burlywood;
+}
+
+.item {
+    order: 0; /* default is 0 */
+    background-color: aqua;
+}
+
+#number1 {
+    order: 2;
+}
