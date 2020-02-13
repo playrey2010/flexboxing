@@ -1,0 +1,25 @@
+.parent {
+    display: flex;
+    height: 300px;
+    background-color: aqua;
+}
+
+.child {
+    width: 30%;
+    height: 75%;
+    margin: auto;
+    border: darkblue 2px solid;
+    /*flex-grow: 0;*/
+}
+
+#grow2 {
+    margin: auto;
+    /*flex-grow: 1;*/
+}
+
+p img {
+    width: 100%;
+    max-width: -webkit-fill-available;
+    max-width: -moz-available;
+    height: 100%;
+}

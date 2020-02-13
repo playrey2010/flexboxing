@@ -3,40 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-    <title>Flex items</title>
+    <title>Title</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
           integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" th:href="@{/items.css}">
+    <link rel="stylesheet" th:href="@{/example.css}">
 </head>
 <body>
-<h1 style="color: blue">These will all have basic horizontal (row) containers with different item properties</h1>
-
-<br>
-<h2>No item property applied</h2>
-<div class="container">
-    <p class="defaultItem">1</p>
-    <p class="defaultItem">2</p>
-    <p class="defaultItem">3</p>
-</div>
-<br>
-
-
-<h2>All items under 'grow:1'</h2>
-<div class="container">
-    <p class="itemFlexGrow1">1</p>
-    <p class="itemFlexGrow1">2</p>
-    <p class="itemFlexGrow1">3</p>
-</div>
-<br>
-
-<h2>All items under 'grow:1', except for 2 ('grow:2')</h2>
-<div class="container">
-    <p class="itemFlexGrow1">1</p>
-    <p class="itemFlexGrow1" id="grow2">2</p>
-    <p class="itemFlexGrow1">3</p>
+<div class="parent">
+    <p class="child"><img src="https://i.ytimg.com/vi/CrdZvybGydM/maxresdefault.jpg"></p>
+    <p class="child" id="grow2"><img src="https://thehappypuppysite.com/wp-content/uploads/2017/10/Cute-Dog-Names-HP-long.jpg"></p>
+    <p class="child"><img src="https://i.pinimg.com/originals/b1/17/8a/b1178afe6c24d9a36cb5dfcfed630e14.jpg"></p>
 </div>
 
-<h4>There is also a 'flex-shrink:0' (default is zero). </h4>
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"

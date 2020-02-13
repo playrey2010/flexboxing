@@ -8,7 +8,6 @@
 .defaultItem {
     background-color: darkmagenta;
     border: chartreuse 2px solid;
-    flex-basis: 2rem;
 }
 .itemFlexGrow1 {
     background-color: darkmagenta;

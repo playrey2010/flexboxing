@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <title>Flex containers</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" th:href="@{/containers.css}">
+</head>
+<body>
+<h1>default container</h1>
+<div class="container">
+    <p class="defaultItem">1</p>
+    <p class="defaultItem">2</p>
+    <p class="defaultItem">3</p>
+    <p class="defaultItem">4</p>
+    <p class="defaultItem">5</p>
+    <p class="defaultItem">6</p>
+    <p class="defaultItem">7</p>
+    <p class="defaultItem">8</p>
+    <p class="defaultItem">9</p>
+</div>
+<br>
+<h1>container flex-wrap: wrap</h1>
+<div class="container-flex-wrap-wrap">
+    <p class="defaultItem">1</p>
+    <p class="defaultItem">2</p>
+    <p class="defaultItem">3</p>
+    <p class="defaultItem">4</p>
+    <p class="defaultItem">5</p>
+    <p class="defaultItem">6</p>
+    <p class="defaultItem">7</p>
+    <p class="defaultItem">8</p>
+    <p class="defaultItem">9</p>
+</div>
+<br>
+<h1>container justify space between</h1>
+<div class="container-justify-spc-between">
+    <p class="defaultItem">One</p>
+    <p class="defaultItem">Two</p>
+    <p class="defaultItem">Three</p>
+    <p class="defaultItem">Four</p>
+    <p class="defaultItem">Five</p>
+    <p class="defaultItem">Six</p>
+    <p class="defaultItem">Seven</p>
+    <p class="defaultItem">Eight</p>
+    <p class="defaultItem">Nine</p>
+</div>
+<br>
+<h1>container justify space between flex-wrap: wrap</h1>
+<div class="container-flex-wrap-wrap container-justify-spc-between">
+    <p class="defaultItem">One</p>
+    <p class="defaultItem">Two</p>
+    <p class="defaultItem">Three</p>
+    <p class="defaultItem">Four</p>
+    <p class="defaultItem">Five</p>
+    <p class="defaultItem">Six</p>
+    <p class="defaultItem">Seven</p>
+    <p class="defaultItem">Eight</p>
+    <p class="defaultItem">Nine</p>
+    <p class="defaultItem">One</p>
+    <p class="defaultItem">Two</p>
+    <p class="defaultItem">Three</p>
+    <p class="defaultItem">Four</p>
+    <p class="defaultItem">Five</p>
+    <p class="defaultItem">Six</p>
+    <p class="defaultItem">Seven</p>
+    <p class="defaultItem">Eight</p>
+    <p class="defaultItem">Nine</p>
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+.container {
+    display: flex; /* or inline-flex */ /*You may think of this as your flexbox initializer */
+    flex-direction: row;
+    /*flex-direction: row | row-reverse | column | column-reverse;*/
+    background-color: burlywood;
+}
+
+/*nowrap (default): all flex items will be on one line*/
+
+/*wrap: flex items will wrap onto multiple lines, from top to bottom.*/
+/*wrap-reverse: flex items will wrap onto multiple lines from bottom to top.*/
+.container-flex-wrap-wrap {
+    /*flex-wrap: nowrap | wrap | wrap-reverse;*/
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-start;
+    background-color: burlywood;
+}
+.container-justify-spc-between {
+    display: flex; /* or inline-flex */ /*You may think of this as your flexbox initializer */
+    flex-direction: row;
+    /*flex-direction: row | row-reverse | column | column-reverse;*/
+    background-color: burlywood;
+    justify-content: space-between;
+}
+
+.defaultItem {
+    background-color: cadetblue;
+    border: darkgreen 2px solid;
+    flex-grow: 1;
+}
+
+h1 {
+    text-align: center;
+}

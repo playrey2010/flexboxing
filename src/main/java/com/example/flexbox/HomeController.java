@@ -7,11 +7,16 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class HomeController {
     @RequestMapping("/")
     public String index() {
-        return "index";
+        return "example1";
     }
 
     @RequestMapping("/items")
     public String flexItems() {
         return "items";
+    }
+
+    @RequestMapping("/containers")
+    public String flexContainers() {
+        return "containers";
     }
 }
